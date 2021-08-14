@@ -4,10 +4,13 @@ import LiveshowRight from './LiveshowRight';
 
 const Liveshow = () => {
   return (
-    <div style={{ display: 'flex' }}>
-      <LiveshowLeft />
-      <LiveshowRight />
-    </div>
+    <>
+      Live News
+      <div style={{ display: 'flex' }}>
+        <LiveshowLeft />
+        <LiveshowRight />
+      </div>
+    </>
   );
 };
 

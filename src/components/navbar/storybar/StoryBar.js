@@ -5,6 +5,7 @@ const StoryBar = () => {
   return (
     <div style={{ display: 'flex' }}>
       <Story />
+      <Story />
     </div>
   );
 };
