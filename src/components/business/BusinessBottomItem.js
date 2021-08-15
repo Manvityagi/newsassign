@@ -2,7 +2,7 @@ import React from 'react';
 import tab from '../../Images/Assets-LT/tab.png'
 import share from '../../Images/Assets-LT/share.png'
 
-const NewsBottomItem = () => {
+const BusinessBottomItem = () => {
   return (
     <div className="container-fluid " style={{ flex: 1,marginTop:"80px" }}>
     <img className="container "
@@ -38,4 +38,4 @@ const NewsBottomItem = () => {
   );
 };
 
-export default NewsBottomItem;
+export default BusinessBottomItem;

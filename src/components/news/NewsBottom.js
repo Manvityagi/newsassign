@@ -3,7 +3,7 @@ import NewsBottomItem from './NewsBottomItem';
 
 const NewsBottom = () => {
   return (
-    <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+    <div style={{ display: 'flex', justifyContent: 'space-between' ,backgroundColor:"white"}}>
       <NewsBottomItem />
       <NewsBottomItem />
       <NewsBottomItem />
