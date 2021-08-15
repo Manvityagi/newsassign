@@ -3,7 +3,7 @@ import share from '../../Images/Assets-LT/share.png'
 import tab from '../../Images/Assets-LT/tab.png'
 import heart from '../../Images/Assets-LT/heart.png'
 
-const NewsTop = () => {
+const BusinessTop = () => {
   return (
     // caraousal
     <div className="container-fluid " style={{ display: 'flex',backgroundColor:"white" }}>
@@ -12,8 +12,8 @@ const NewsTop = () => {
       style={{ width: '100%', height: '250px',borderRadius:"8px" }}
     />
     <div>
-      <div className="mt-5" style={{ display: 'flex' }}>
-        <div style={{display:"flex"}} ><img style={{width:"20px",height:"20px",marginRight:"5px"}}src={share}/>232</div>
+      <div className="mt-5 ml-0" style={{ display: 'flex' }}>
+        <div style={{display:"flex"}}><img style={{width:"20px",height:"20px",marginRight:"5px"}}src={share}/>232</div>
        
         <div style={{ display: 'flex', justifyContent: 'space-between',marginLeft:"600px" }}>
         <div style={{marginRight:"20px"}}><img style={{width:"30px",height:"30px"}} src={share}/></div>
@@ -50,4 +50,4 @@ const NewsTop = () => {
   );
 };
 
-export default NewsTop;
+export default BusinessTop;
