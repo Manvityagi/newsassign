@@ -9,6 +9,7 @@ const NewsBottom = () => {
     const fetchContent = async () => {
       const res = await axios.get('/appapi/lt/category/news');
       setContent(res.data.data.news.splice(0, 3));
+     
     };
 
     fetchContent();

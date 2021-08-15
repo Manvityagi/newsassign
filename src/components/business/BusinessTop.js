@@ -47,7 +47,7 @@ const BusinessTop = () => {
             style={{
               display: 'flex',
               justifyContent: 'space-between',
-              marginLeft: '600px',
+              marginLeft: '450px',
             }}
           >
             <div style={{ marginRight: '20px' }}>
@@ -60,8 +60,8 @@ const BusinessTop = () => {
           </div>
         </div>
 
-        <h5>{video.v_title}</h5>
-        <p>{video.v_short_desc}</p>
+        <h5 className="par">{video.v_title}</h5>
+        <p className="para">{video.v_short_desc}</p>
         <div className='imagesBadge' style={{ display: 'flex' }}>
           <p>#Police</p>
           <p>#Bihar</p>

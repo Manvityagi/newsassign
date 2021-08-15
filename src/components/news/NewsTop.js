@@ -36,10 +36,11 @@ const NewsTop = () => {
       <div>
         <div className='mt-5' style={{ display: 'flex' }}>
           <div style={{ display: 'flex' }}>
-            <img
+            {/*<img
               style={{ width: '20px', height: '20px', marginRight: '5px' }}
               src={share}
-            />
+            />*/}
+            <i className="fa fa-eye " style={{width:"20px",height:"20px",paddingTop:"2px"}} aria-hidden="true"></i>
             {video.v_view_count}
           </div>
 
@@ -47,7 +48,7 @@ const NewsTop = () => {
             style={{
               display: 'flex',
               justifyContent: 'space-between',
-              marginLeft: '600px',
+              marginLeft: '450px',
             }}
           >
             <div style={{ marginRight: '20px' }}>
@@ -60,8 +61,8 @@ const NewsTop = () => {
           </div>
         </div>
 
-        <h5>{video.v_title}</h5>
-        <p>{video.v_short_desc}</p>
+        <h5 className="par">{video.v_title}</h5>
+        <p className="para">{video.v_short_desc}</p>
         <div className='imagesBadge' style={{ display: 'flex' }}>
           <p>#Police</p>
           <p>#Bihar</p>

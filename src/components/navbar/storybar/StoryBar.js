@@ -15,8 +15,8 @@ const StoryBar = () => {
   }, []);
 
   return (
-    <div className='container-fluid' style={{ backgroundColor: '#F4F4F4' }}>
-      <p>Stories</p>
+    <div className='container-fluid' style={{ backgroundColor: '#F4F4F4' ,marginBottom:"30px"}}>
+      <p style={{fontSize:"18px",fontWeight:"500"}}>Stories</p>
       <div style={{ display: 'flex' }}>
         {content.map((item) => (
           <Story

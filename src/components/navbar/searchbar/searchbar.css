@@ -53,3 +53,14 @@ input {
       color: #E76AAC;
      
   }
+ 
+  
+  
+  @media only screen and (max-width: 1270px) and (min-width: 320px)  {
+    .hamburger1 {
+        display: none;
+      }
+      .notify{
+          display: none;
+      }  
+  }

@@ -21,8 +21,8 @@ ul{
     color:gray;
     text-decoration: none;
     font-size: 17px;
-    width: 130px;
-    border-radius: 6px;
+    width: 146px;
+    border-right: 1px solid #D6D0C9;
   }
   
   /* Navbar links on mouse-over */

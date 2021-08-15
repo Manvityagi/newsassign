@@ -5,7 +5,7 @@ const LiveshowRight = () => {
     <div style={{ flex: 1 }} style={{backgroundColor:"white"}}>
       <div className="container-fluid" style={{ display: 'flex', justifyContent: 'space-between ' }}>
         <div className="schedule">Live Schedule</div>
-        <div className="schedule">View Live Schedule</div>
+        <div style={{color:"#EF4F4F",marginTop:"20px"}}>View Live Schedule</div>
       </div>
       <div className="week container-fluid" style={{ display: 'flex', justifyContent: 'space-between ' }}>
         <div>MON</div>
